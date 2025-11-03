@@ -48,3 +48,18 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Jenkins and CI/CD
+jenkins-key.json
+*.key.json
+*-key.json
+.jenkins/
+
+# GCP service account credentials
+gcp-service-account.json
+gcp-*.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local

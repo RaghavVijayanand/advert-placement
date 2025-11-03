@@ -3,6 +3,10 @@ opencv-python>=4.8.0
 pillow>=10.0.0
 numpy>=1.24.0
 
+# Web framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
 # Pretrained models
 paddleocr>=2.7.0
 timm>=0.9.0
@@ -11,7 +15,7 @@ torchvision>=0.17.0
 
 # ONNX Runtime (choose one based on hardware)
 # onnxruntime>=1.16.0  # CPU only
-onnxruntime-directml>=1.16.0  # Windows GPU via DirectML
+onnxruntime>=1.16.0  # CPU runtime (Linux-friendly)
 
 # ML and ranking
 lightgbm>=4.1.0
@@ -21,3 +25,6 @@ scipy>=1.11.0
 # Utilities
 tqdm>=4.66.0
 pyyaml>=6.0
+
+# Production server
+gunicorn>=21.2.0
